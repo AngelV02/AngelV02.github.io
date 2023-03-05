@@ -1,0 +1,111 @@
+#Home {
+    background: url("./Img/background.jpg") no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 350px;
+    padding-bottom: 500px;
+    color: #fff;
+}
+
+
+#About img {
+    float: right;
+    width: 45%;
+    height: 20%;
+    margin-top: -300px;
+}
+
+
+
+/***** TABLE STYLING *****/
+* { 
+    box-sizing: border-box; /* This creates a box with a border within which we will place most of our text */
+} 
+
+.Column_1 {
+    float: left;
+    width: 50%; 
+    padding: 10px;
+    padding-top: 3%; 
+    height: 400px; 
+    background-color: #f2f2f2; 
+}
+
+.Column_2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 1.9%;
+    height: 400px;
+    background-color: #4d4d4d;
+}
+
+.Column_tall {
+    padding-top: 3.5%;
+    height: 450px;
+}
+
+
+.Row:after {
+	content: ""; 
+	display: table; 
+	clear: both; 
+}
+/***** END OF TABLE STYLING *****/
+
+/***** CONTACT FORM STYLING *****/
+input[type=text] {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+    font-family: Perpetua, Rockwell Extra Bold;
+}
+
+
+input[type=text]:hover {
+    box-shadow: 0 0 5px #00004d inset; 
+}
+
+/* Submit button */
+input[type=submit] {
+    background-color: black; 
+    color: white; 
+    font-weight: bold; 
+    padding: 12px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    margin-left: auto; 
+    margin-right: auto;
+    font-family: Perpetua, Rockwell Extra Bold;
+}
+
+/* Hover effect for submit button */
+input[type=submit]:hover {
+    background-color: white; 
+    color: black; 
+    transform: scale(1.5); 
+    transition: transform 1.5s; 
+}
+
+/* Form element */
+form {
+    border-radius: 5px; 
+    background-color: #f2f2f2; 
+    padding: 10px; 
+    font-family: "Trebuchet MS", Optima;
+}
+
+
+/***** END OF CONTACT FORM STYLING *****/

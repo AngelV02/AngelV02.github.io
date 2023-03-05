@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta chartset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Angel Velasco</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./portfolio.css">
+        <style>
+            .Form_Right {
+                float: left; 
+                margin-left: 20px;
+                margin-bottom: -20px; 
+            }
+        </style>
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+
+        <!--NAV BAR-->
+
+        <div class="Navbar">
+            <nav class="navbar navbar-expand-lg  bg-dark dat" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#Home">Home</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#About">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Resume</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                <a class="nav-link active" href="#" role="button" aria-expanded="false">Portfolio</a>
+                            </ul>
+
+                            <!--Nav end #-->
+                            <ul class="nav justify-content-end">
+                                <li class="container-fluid">
+                                    <a class="navbar-brand" href="#">&#xF4E2; 503-572-7170</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                </div>
+            </nav>
+        </div>
+
+        <!--HOME-->
+        <div id="Home">
+            <div class="jumbotron jumbotron-fluid text-start">
+                <div class="container">
+                    <h1 class="display-4">Angel</h1>
+                    <h1 class="display-2">Velasco.</h1>
+                    <p class="lead ">Software Developer</p>
+                    <a class="btn btn-outline-light" href="#" role="button">Resume</a>
+                    <a class="btn btn-outline-light" href="#" role="button">Portfolio</a>
+                </div>
+              </div>
+        </div>
+
+        <br>
+        <br>
+
+        <!--END HOME-->
+
+        <!--About Me -->
+
+        <div id="About">
+            <div class="jumbotron jumbotron-fluid text-start">
+                <div class="container">
+                    <h1 class="display-2">About</h1>
+
+
+                    <p class="lead ">nickvela12@gmail.com</p>
+                    <br>
+                    <br>
+                    <br>
+                    <p class="lh-base">I am a software developer who loves to code! <br>
+                    I expect to gradute from the The Tech Academys <br>
+                    Software Developer Boot Camp in July and I am <br>
+                    very excited!<br>
+                    <br>In the future I would love to work on your project!<br>
+                    Contact me below! <br>
+                    <br>You can view my coding projects on my GitHub profile here:<br>
+                    <a href="https://github.com/AngelV02/HTML-CSS-Projects" class="link-primary">Angel Velasco's Github</a>
+                    <img src="./Img/background2.png" alt="" > 
+                
+                </div>
+            </div>
+
+
+            <!--Contact info-->
+            <div class="Row" id="Contact">
+                <!--Contact image, left column--
+                <div class="Column_2 Column_tall">
+                    <img src="" alt="">
+                </div>-->
+            </div>
+
+
+            <!--Form-->
+            <div class="Column_1 Column_tall Form_Right">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="https://formspree.io/f/mgebyroy" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+</html>

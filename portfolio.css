@@ -1,5 +1,5 @@
 #Home {
-    background-image: url("./background.jpg");
+    background-image: url("background.jpg");
     background: url("./background.jpg") no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;

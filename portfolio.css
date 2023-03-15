@@ -22,6 +22,12 @@
 }
 
 
+/****** NAV BAR HOVER *****/
+
+.navbar-nav li a:hover {
+    color: blue;
+}
+
 
 /***** TABLE STYLING *****/
 * { 

@@ -22,13 +22,6 @@
 }
 
 
-/****** NAV BAR HOVER *****/
-
-.navbar-nav li a:hover {
-    color: blue;
-}
-
-
 /***** TABLE STYLING *****/
 * { 
     box-sizing: border-box; /* This creates a box with a border within which we will place most of our text */

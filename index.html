@@ -60,6 +60,7 @@
                 <div class="container">
                     <h1 class="display-4" style="font-size:4vw; ">Angel</h1>
                     <h1 class="display-2" style="font-size:6vw;">Velasco.</h1>
+                    
                     <p class="lead " style="font-size:2vw;">Software Developer</p>
                     <a class="btn btn-outline-light" href="#" role="button">Resume</a>
                     <a class="btn btn-outline-light" href="#" role="button">Portfolio</a>
@@ -67,8 +68,6 @@
               </div>
         </div>
 
-        <br>
-        <br>
 
         <!--END HOME-->
 
@@ -78,7 +77,7 @@
             <div class="jumbotron jumbotron-fluid text-start">
                 <div class="container">
                     <h1 class="display-2">About</h1>
-
+                    <hr>
 
                     <p class="lead ">nickvela12@gmail.com</p>
                     <br>
@@ -92,38 +91,27 @@
                     Contact me below! <br>
                     <br>You can view my coding projects on my GitHub profile here:<br>
                     <a href="https://github.com/AngelV02/HTML-CSS-Projects" class="link-primary">Angel Velasco's Github</a>
+
+                    <h1>Contact</h1>
+                    <!--This specifies where and how to send the form data; we are leaving it blank-->
+                    <form action="https://formspree.io/f/mgebyroy" method="POST" onsubmit="return validateForm()"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                        
+                        <label>Name:</label>
+                            <input type="text" name="fname" placeholder="Please enter your name here">
+                        
+                        <label>Email:</label>
+                            <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                        
+                        <label>Message:</label>
+                            <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                            <input type="submit" value="SUBMIT">
+                    </form>
+
                     <img src="./background2.png" alt="" > 
                 
                 </div>
             </div>
-
-
-            <!--Contact info-->
-            <div class="Row" id="Contact">
-                <!--Contact image, left column--
-                <div class="Column_2 Column_tall">
-                    <img src="" alt="">
-                </div>-->
-            </div>
-
-
-            <!--Form-->
-            <div class="Column_1 Column_tall Form_Right">
-                <h1>Contact</h1>
-                <!--This specifies where and how to send the form data; we are leaving it blank-->
-                <form action="https://formspree.io/f/mgebyroy" method="POST" onsubmit="return validateForm()"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
-                    
-                    <label>Name:</label>
-                        <input type="text" name="fname" placeholder="Please enter your name here">
-                    
-                    <label>Email:</label>
-                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
-                    
-                    <label>Message:</label>
-                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
-                        <input type="submit" value="SUBMIT">
-                </form>
-            </div>
+            
 
 
 

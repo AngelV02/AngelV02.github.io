@@ -1,7 +1,12 @@
 body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
     opacity: 1;
     transition: 1s opacity;
 }
+
+
 
 body.fade-out {
     opacity: 0;
@@ -21,16 +26,41 @@ body.fade-out {
     padding-top: 350px;
     padding-bottom: 500px;
     color: #fff;
+    opacity: 0;
+    transition: all 1s ;
 }
 
+#Home.show {
+    opacity: 1;
+}
+
+#About {
+    background-color: rgb(27, 27, 27);
+    background-size: cover;
+    color: white;
+}
+
+
+input {
+    width: 20%;
+}
 
 #About img {
     float: right;
-    width: 45%;
-    height: 20%;
-    margin-top: -300px;
+    width: 40%;
+    height: 430px;
+    margin-top: -800px;
 }
 
+.section {
+    opacity: 0;
+    transition: all 1s;
+  }
+  
+.section.visible {
+    opacity: 1;
+  }
+  
 
 /***** TABLE STYLING *****/
 * { 

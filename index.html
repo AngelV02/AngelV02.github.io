@@ -55,12 +55,12 @@
         </div>
 
         <!--HOME-->
-        <div id="Home">
+        <div id="Home" class="section">
             <div class="jumbotron jumbotron-fluid text-start">
                 <div class="container">
-                    <h1 class="display-4">Angel</h1>
-                    <h1 class="display-2">Velasco.</h1>
-                    <p class="lead ">Software Developer</p>
+                    <h1 class="display-4" style="font-size:4vw; ">Angel</h1>
+                    <h1 class="display-2" style="font-size:6vw;">Velasco.</h1>
+                    <p class="lead " style="font-size:2vw;">Software Developer</p>
                     <a class="btn btn-outline-light" href="#" role="button">Resume</a>
                     <a class="btn btn-outline-light" href="#" role="button">Portfolio</a>
                 </div>
@@ -74,7 +74,7 @@
 
         <!--About Me -->
 
-        <div id="About">
+        <div id="About" class="section">
             <div class="jumbotron jumbotron-fluid text-start">
                 <div class="container">
                     <h1 class="display-2">About</h1>
@@ -111,11 +111,14 @@
             <div class="Column_1 Column_tall Form_Right">
                 <h1>Contact</h1>
                 <!--This specifies where and how to send the form data; we are leaving it blank-->
-                <form action="https://formspree.io/f/mgebyroy" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                <form action="https://formspree.io/f/mgebyroy" method="POST" onsubmit="return validateForm()"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    
                     <label>Name:</label>
-                        <input type="text" placeholder="Please enter your name here">
+                        <input type="text" name="fname" placeholder="Please enter your name here">
+                    
                     <label>Email:</label>
                         <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    
                     <label>Message:</label>
                         <input type="text" id="Message" name="Message" placeholder="Please write your message here">
                         <input type="submit" value="SUBMIT">
@@ -124,7 +127,14 @@
 
 
 
-
+        <script src="portfolio.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script>
+            document.body.classList.add('fade-out');
+
+            window.addEventListener('DOMContentLoaded', () => {
+                document.body.classList.remove('fade-out');
+            });
+        </script>
     </body>
 </html>

@@ -38,6 +38,7 @@ body.fade-out {
     background-color: rgb(27, 27, 27);
     background-size: cover;
     color: white;
+    
 }
 
 
@@ -52,14 +53,18 @@ input {
     margin-top: -800px;
 }
 
+
 .section {
-    opacity: 0;
+    opacity: 1;  /** this needs to be set to 1 after being set to 0 orginanlly  
+    to display the about  page for some reason find out why. **/
     transition: all 1s;
   }
   
 .section.visible {
     opacity: 1;
   }
+
+ 
   
 
 /***** TABLE STYLING *****/
@@ -148,3 +153,11 @@ form {
 
 
 /***** END OF CONTACT FORM STYLING *****/
+
+#Resume {
+    opacity: 1;
+}
+#Resume h1 {
+    color: #000; /* Or any color you want */
+    
+}

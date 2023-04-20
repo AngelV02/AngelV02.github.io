@@ -35,7 +35,7 @@ body.fade-out {
 }
 
 #About {
-    background-color: rgb(27, 27, 27);
+    background-image: url("background3.jpg");
     background-size: cover;
     color: white;
     
@@ -64,7 +64,20 @@ input {
     opacity: 1;
   }
 
- 
+.header-wrapper {
+    display: inline-block;
+    position: relative;
+  }
+.header-wrapper:after {
+    content: '';
+    position: absolute;
+    bottom: 9px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+  }
+  
   
 
 /***** TABLE STYLING *****/
@@ -145,6 +158,7 @@ input[type=submit]:hover {
 
 /* Form element */
 form {
+    width: 50%;
     border-radius: 5px; 
     background-color: #f2f2f2; 
     padding: 10px; 

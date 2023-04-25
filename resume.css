@@ -1,0 +1,50 @@
+body {
+    background: url("./background4.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+    max-width: 1500px;
+  }
+
+.section {
+    width:20%; 
+    box-sizing: border-box;
+  }
+
+.left-section {
+    margin-right: 20px;
+    /** margin-left: -240px; **/
+  }
+
+  
+
+.right-section {
+    margin-left: 20px;
+    /** margin-right: -430px; **/
+  }
+
+.bi-filetype-html {
+    font-size: 30px; /* change this value to adjust the size of the icon */
+}
+  
+.bi-filetype-css {
+    font-size: 30px; /* change this value to adjust the size of the icon */
+}
+
+.bi-filetype-js {
+    font-size: 30px; /* change this value to adjust the size of the icon */
+}
+  
+.bi-filetype-py {
+    font-size: 30px; /* change this value to adjust the size of the icon */
+}
+
+
+
+  

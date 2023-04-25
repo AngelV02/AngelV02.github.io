@@ -35,8 +35,9 @@ body.fade-out {
 }
 
 #About {
-    background-image: url("background3.jpg");
-    background-size: cover;
+    background: url("background4.jpg") no-repeat 50% 50% ;
+    background-attachment: fixed;
+    background-size: cover; 
     color: white;
     
 }

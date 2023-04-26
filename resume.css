@@ -5,30 +5,6 @@ body {
     color: white;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 11px;
-    max-width: 1500px;
-  }
-
-.section {
-    width:20%; 
-    box-sizing: border-box;
-  }
-
-.left-section {
-    margin-right: 20px;
-    /** margin-left: -240px; **/
-  }
-
-  
-
-.right-section {
-    margin-left: 20px;
-    /** margin-right: -430px; **/
-  }
-
 .bi-filetype-html {
     font-size: 30px; /* change this value to adjust the size of the icon */
 }
@@ -46,5 +22,27 @@ body {
 }
 
 
+.text-start {
+  margin-top: 60px;
+  margin-left: 45px;
+  font-size: 150%;
+}
 
-  
+.description {
+  margin-left: 45px;
+  font-size: 125%;
+  font-weight: bold;
+}
+
+
+.card-img-top:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+
+

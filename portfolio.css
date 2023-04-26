@@ -34,13 +34,13 @@ body.fade-out {
     opacity: 1;
 }
 
-#About {
+/* #About {
     background: url("background4.jpg") no-repeat 50% 50% ;
     background-attachment: fixed;
     background-size: cover; 
     color: white;
     
-}
+} */
 
 
 input {
